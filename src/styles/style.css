@@ -81,6 +81,7 @@ nav {
   position: relative;
   margin-top: 0;
   background-color: var(--light-white);
+  padding-bottom: 90px;
 }
 
 .header-title {
@@ -147,7 +148,7 @@ nav {
   font-weight: 400;
   font-size: 60px;
   padding: 0;
-  margin-top: 90px;
+  margin-top: 100px;
 }
 
 .description-header-legend {
