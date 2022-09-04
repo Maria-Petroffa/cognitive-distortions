@@ -19,7 +19,7 @@
 }
 
 @font-face {
-  font-family: Neucha;
+  font-family: Neucha, Arial, Helvetica, sans-serif;
   src: url("./../font/Neucha-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -41,7 +41,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: Neucha;
+  font-family: Neucha, Arial, Helvetica, sans-serif;
   line-height: 1.2em;
 }
 
