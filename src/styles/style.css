@@ -12,15 +12,15 @@
 }
 
 @font-face {
-  font-family: 'OpenSans';
-  src: url('./../font/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+  font-family: "OpenSans";
+  src: url("./../font/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Neucha';
-  src: url('./../font/Neucha-Regular.ttf') format('truetype');
+  font-family: "Neucha";
+  src: url("./../font/Neucha-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -32,7 +32,7 @@
 }
 
 body {
-  font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+  font-family: "OpenSans", Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.6em;
   color: var(--dark);
@@ -41,7 +41,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'Neucha';
+  font-family: "Neucha";
   line-height: 1.2em;
 }
 
@@ -60,8 +60,8 @@ nav {
 }
 
 .backgroundImage::before {
-  content: '';
-  background: url('./../images/background.png');
+  content: "";
+  background: url("./../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.06;
@@ -189,13 +189,13 @@ nav {
 .navigation-count {
   margin-bottom: 40px;
   font-size: 64px;
-  font-family: 'Neucha';
+  font-family: "Neucha";
   line-height: 1;
   text-decoration: none;
 }
 
 .navigation-item-header {
-  font-family: 'Neucha';
+  font-family: "Neucha";
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
@@ -241,7 +241,7 @@ nav {
 }
 
 .content-header-preTitel {
-  font-family: 'Neucha';
+  font-family: "Neucha";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -257,7 +257,7 @@ nav {
 }
 
 .content-header-titel {
-  font-family: 'Neucha';
+  font-family: "Neucha";
   font-style: normal;
   font-weight: 400;
   font-size: 60px;
@@ -269,7 +269,7 @@ nav {
 }
 
 .content-header-description {
-  font-family: 'Neucha';
+  font-family: "Neucha";
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
@@ -321,7 +321,7 @@ nav {
 }
 
 .email-description {
-  font-family: 'Neucha';
+  font-family: "Neucha";
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
@@ -329,7 +329,7 @@ nav {
 }
 
 .email-form label {
-  font-family: 'OpenSans';
+  font-family: "OpenSans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -342,7 +342,7 @@ nav {
   height: 50px;
   width: 485px;
 
-  font-family: 'OpenSans';
+  font-family: "OpenSans";
   font-style: normal;
   font-weight: 400;
   font-size: 13.1px;
@@ -360,7 +360,7 @@ nav {
 }
 
 .email-form legend {
-  font-family: 'OpenSans';
+  font-family: "OpenSans";
 
   font-weight: 400;
   font-size: 12px;
@@ -373,13 +373,13 @@ nav {
 
 .email-form button {
   position: absolute;
-  content: '';
+  content: "";
   width: 70px;
   height: 50px;
   top: 0;
   right: 0;
   background-color: #FE8A02;
-  background-image: url('./../images/send.svg');
+  background-image: url("./../images/send.svg");
   background-repeat: no-repeat;
   background-position: center;
   border: none;
@@ -393,13 +393,14 @@ button:hover {
 }
 
 
-.coryping  {
+.coryping {
   margin-top: 60px;
   text-align: center;
   font-size: 14px;
 }
 
-.about-article, .link{
+.about-article,
+.link {
   margin-top: 16px;
   text-align: center;
   font-size: 14px;
