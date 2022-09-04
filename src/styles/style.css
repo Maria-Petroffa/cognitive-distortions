@@ -124,10 +124,10 @@ nav {
 }
 
 .header-button:hover {
-  background-color: #EA7600;
+  background-color: #ea7600;
 }
 
-.description-content {
+/* .description-content {
   padding-bottom: 0;
 }
 
@@ -201,17 +201,17 @@ nav {
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
-  color: #FE8A02;
+  color: #fe8a02;
   line-height: 1.2;
 }
 
 .navigation-item:hover {
-  background-color: #EA7600;
+  background-color: #ea7600;
   color: #FFFFFF;
 }
 
 .navigation-item:hover .navigation-item-header {
-  background-color: #EA7600;
+  background-color: #ea7600;
   color: #FFFFFF;
 }
 
@@ -351,19 +351,16 @@ nav {
   line-height: 1.6;
   padding: 15px;
 
-  color: rgb(117, 117, 117, 0.2);
+  color: rgb(117, 117, 117, 20%);
   border: none;
-
 }
 
 .email-form a {
-  /* text-decoration: none; */
   color: #FFFFFF;
 }
 
 .email-form legend {
-  font-family: "OpenSans";
-
+  font-family: OpenSans;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.6;
@@ -380,7 +377,7 @@ nav {
   height: 50px;
   top: 0;
   right: 0;
-  background-color: #FE8A02;
+  background-color: #fe8a02;
   background-image: url("./../images/send.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -391,9 +388,8 @@ nav {
 }
 
 button:hover {
-  background-color: #EA7600;
+  background-color: #ea7600;
 }
-
 
 .coryping {
   margin-top: 60px;
@@ -406,4 +402,4 @@ button:hover {
   margin-top: 16px;
   text-align: center;
   font-size: 14px;
-}
+} */
