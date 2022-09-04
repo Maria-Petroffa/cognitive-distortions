@@ -12,14 +12,14 @@
 }
 
 @font-face {
-  font-family: "OpenSans";
+  font-family: OpenSans;
   src: url("./../font/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Neucha";
+  font-family: Neucha;
   src: url("./../font/Neucha-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -32,7 +32,7 @@
 }
 
 body {
-  font-family: "OpenSans", Arial, Helvetica, sans-serif;
+  font-family: OpenSans, Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.6em;
   color: var(--dark);
@@ -41,7 +41,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Neucha";
+  font-family: Neucha;
   line-height: 1.2em;
 }
 
@@ -55,11 +55,11 @@ nav {
   padding-bottom: 100px;
 }
 
-.backgroundImage {
+.background-image {
   position: relative;
 }
 
-.backgroundImage::before {
+.background-image::before {
   content: "";
   background: url("./../images/background.png");
   background-repeat: no-repeat;
@@ -312,7 +312,6 @@ nav {
 .content-main {
   margin-top: 20px;
 }
-
 
 .email-wrapper {
   display: flex;
