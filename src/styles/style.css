@@ -1,7 +1,47 @@
 /** CSS STYLE **/
+:root {
+  --wite :#fff;
+  --translucent-white:#d7ccc0;
+  --light-white:#f5f4f0;
+  --main-orange:#fe8a02;
+  --main-dark:#42413c;
+  --dark:#2a2626;
+  --translucent-dark:#908d8b;
+  --brown:#b09a81;
+  --blue:#1085c5;
+}
 
-.hello {
-  display: block;
+@font-face {
+  font-family: 'OpenSans';
+  src: url('./../font/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
-  color: #fff;
+@font-face {
+  font-family: 'Neucha';
+  src: url('./../font/Neucha-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: var(--dark);
+}
+
+h1, h2, h3{
+  font-family: 'Neucha';
+  line-height: 1.2em;
+}
+
+header, section, footer{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.container{
+  width: 1100px;
 }
