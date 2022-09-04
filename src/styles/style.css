@@ -12,7 +12,7 @@
 }
 
 @font-face {
-  font-family: OpenSans;
+  font-family: OpenSans, Arial, Helvetica, sans-serif;
   src: url("./../font/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -359,7 +359,7 @@ nav {
 }
 
 .email-form legend {
-  font-family: OpenSans;
+  font-family: OpenSans, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.6;
