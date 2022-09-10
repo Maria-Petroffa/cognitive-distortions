@@ -9,20 +9,20 @@
   --translucent-dark: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
-  --black: #000000;
+  --black: #000;
 }
 
 @font-face {
   font-family: OpenSans;
-  src: url("./../font/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
   font-weight: normal;
+  src: url("./../font/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
   font-style: normal;
 }
 
 @font-face {
   font-family: Neucha;
-  src: url("./../font/Neucha-Regular.ttf") format("truetype");
   font-weight: normal;
+  src: url("./../font/Neucha-Regular.ttf") format("truetype");
   font-style: normal;
 }
 
@@ -33,10 +33,10 @@
 }
 
 body {
-  font-family: OpenSans, sans-serif;
   font-size: 16px;
-  line-height: 1.6em;
+  font-family: OpenSans, sans-serif;  
   color: var(--dark);
+  line-height: 1.6em;  
 }
 
 h1,
@@ -61,8 +61,8 @@ nav {
 }
 
 .background-image::before {
-  content: "";
   background: url("./../images/background.png");
+  content: "";  
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
@@ -139,6 +139,7 @@ nav {
   height: 50px;
   background-color: #fe8a02;
   color: #fff;
+  
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -168,6 +169,7 @@ nav {
   text-align: center;
   line-height: 1.6;
   color: #212529;
+
 }
 
 .description-video-content {
@@ -192,6 +194,7 @@ nav {
 .navigation-header {
   font-size: 52px;
   color: #fff;
+
   font-weight: 400;
   width: 350px;
 }
@@ -203,6 +206,7 @@ nav {
   background-color: #f5f4f0;
   text-decoration: none;
   color: #42413c;
+
   cursor: pointer;
 }
 
@@ -221,6 +225,7 @@ nav {
   font-weight: 400;
   font-size: 34px;
   color: #fe8a02;
+
   line-height: 1.2;
 }
 
