@@ -13,17 +13,17 @@
 }
 
 @font-face {
-  font-family: OpenSans;
   font-weight: normal;
-  src: url("./../font/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+  font-family: OpenSans;
   font-style: normal;
+  src: url("./../font/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: Neucha;
   font-weight: normal;
-  src: url("./../font/Neucha-Regular.ttf") format("truetype");
+  font-family: Neucha;
   font-style: normal;
+  src: url("./../font/Neucha-Regular.ttf") format("truetype");
 }
 
 * {
@@ -34,9 +34,9 @@
 
 body {
   font-size: 16px;
-  font-family: OpenSans, sans-serif;  
+  font-family: OpenSans, sans-serif;
   color: var(--dark);
-  line-height: 1.6em;  
+  line-height: 1.6em;
 }
 
 h1,
@@ -62,7 +62,7 @@ nav {
 
 .background-image::before {
   background: url("./../images/background.png");
-  content: "";  
+  content: "";
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
@@ -138,8 +138,9 @@ nav {
   width: 148px;
   height: 50px;
   background-color: #fe8a02;
+
   color: #fff;
-  
+
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -168,8 +169,8 @@ nav {
   margin-top: 30px;
   text-align: center;
   line-height: 1.6;
-  color: #212529;
 
+  color: #212529;
 }
 
 .description-video-content {
@@ -193,6 +194,7 @@ nav {
 
 .navigation-header {
   font-size: 52px;
+
   color: #fff;
 
   font-weight: 400;
@@ -205,6 +207,7 @@ nav {
   padding-right: 24px;
   background-color: #f5f4f0;
   text-decoration: none;
+
   color: #42413c;
 
   cursor: pointer;
@@ -224,6 +227,7 @@ nav {
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
+
   color: #fe8a02;
 
   line-height: 1.2;
@@ -231,11 +235,13 @@ nav {
 
 .navigation-item:hover {
   background-color: #ea7600;
+
   color: #fff;
 }
 
 .navigation-item:hover .navigation-item-header {
   background-color: #ea7600;
+
   color: #fff;
 }
 
