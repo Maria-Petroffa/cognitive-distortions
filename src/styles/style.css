@@ -450,15 +450,14 @@ button:hover {
 .about-article,
 .link {
   margin-top: 16px;
-
   font-size: 14px;
   text-align: center;
 }
 
-.test:last-child h2{
+.test:last-child h2 {
   margin-top: 31px;
-font-size: 55px;
-font-weight: normal;
-color: #ea7600;
-margin-bottom: 47px;
+  font-size: 55px;
+  font-weight: normal;
+  color: #ea7600;
+  margin-bottom: 47px;
 }
