@@ -66,9 +66,9 @@ nav {
   background: url("./../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.1;
   width: 100%;
   height: 100%;
+  opacity: 0.1;
   content: "";
 }
 
@@ -139,10 +139,10 @@ nav {
   margin-left: 10px;
   padding-top: 12px;
   color: #fff;
-  text-transform: uppercase;
   font-weight: bold;
-  text-decoration: none;
+  text-transform: uppercase;
   text-align: center;
+  text-decoration: none;
   background-color: var(--main-orange);
 }
 
@@ -159,8 +159,8 @@ nav {
   margin-top: 100px;
   padding: 0;
   font-weight: 400;
-  text-align: center;
   font-size: 60px;
+  text-align: center;
 }
 
 .description-header-legend {
@@ -190,10 +190,10 @@ nav {
 }
 
 .navigation-header {
-  color: #fff;
   width: 350px;
-  font-size: 52px;
+  color: #fff;
   font-weight: 400;
+  font-size: 52px;
 }
 
 .navigation-item {
@@ -216,10 +216,10 @@ nav {
 }
 
 .navigation-item-header {
-  font-family: Neucha, sans-serif;
   font-weight: 400;
-  font-style: normal;
+  font-family: Neucha, sans-serif;
   color: var(--main-orange);
+  font-style: normal;
   font-size: 34px;
   line-height: 1.2;
 }
@@ -239,8 +239,8 @@ nav {
 }
 
 .content-dark {
-  background-color: var(--brown);
   color: var(--wite);
+  background-color: var(--brown);
 }
 
 .content-header {
@@ -256,24 +256,24 @@ nav {
   margin-right: 30px;
 }
 
-.content-header-preTitel {
-  font-family: "Neucha";
+.content-header-pretitel {
+  font-family: Neucha, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 1.2;
 }
 
-.content-light .content-header-preTitel {
+.content-light .content-header-pretitel {
   color: var(--translucent-dark);
 }
 
-.content-dark .content-header-preTitel {
+.content-dark .content-header-pretitel {
   color: #D7CCC0;
 }
 
 .content-header-titel {
-  font-family: "Neucha";
+  font-family: Neucha, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 60px;
@@ -285,7 +285,7 @@ nav {
 }
 
 .content-header-description {
-  font-family: "Neucha";
+  font-family: Neucha, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
@@ -339,7 +339,7 @@ nav {
 }
 
 .email-description {
-  font-family: "Neucha";
+  font-family: Neucha, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
@@ -347,7 +347,7 @@ nav {
 }
 
 .email-form label {
-  font-family: "OpenSans";
+  font-family: OpenSans, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -360,7 +360,7 @@ nav {
   height: 50px;
   width: 485px;
 
-  font-family: "OpenSans";
+  font-family: OpenSans, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13.1px;
