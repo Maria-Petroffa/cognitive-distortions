@@ -150,7 +150,7 @@ nav {
 }
 
 .description-content {
-  height: 914px;
+  /* height: 914px; */
   padding: 0;
 }
 
@@ -181,8 +181,6 @@ nav {
   left: 95px;
   top: 30px;
 }
-
-/*
 
 .navigation {
   background-color: #42413C;
@@ -245,6 +243,7 @@ nav {
   margin-top: 16px;
 }
 
+/*
 .content-light {
   background-color: var(--light-white);
 }
