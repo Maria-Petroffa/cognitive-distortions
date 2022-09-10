@@ -184,7 +184,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 20px 30px;
+  grid-gap: 20px 28px;
   margin-top: 100px;
 }
 
@@ -193,18 +193,26 @@ nav {
   color: #fff;
   font-weight: 400;
   width: 350px;
+  /* padding-left: 1px; */
+  /* padding-right: 1px; */
 }
 
 .navigation-item {
   width: 350px;
-  padding: 24px;
+  /* padding: 24px; */
+  /* padding-top: 24px; */
+  /* padding-bottom: 24px; */
+  padding-left: 23px;
+  padding-right: 24px;
   background-color: #f5f4f0;
   text-decoration: none;
   color: #42413c;
   cursor: pointer;
+  /* min-height: 320px; */
 }
 
 .navigation-count {
+  margin-top: 24px;
   margin-bottom: 40px;
   font-size: 64px;
   font-family: Neucha, sans-serif;
@@ -219,6 +227,7 @@ nav {
   font-size: 34px;
   color: #fe8a02;
   line-height: 1.2;
+  
 }
 
 .navigation-item:hover {
@@ -232,7 +241,7 @@ nav {
 }
 
 .navigation-item-description {
-  margin-top: 16px;
+  margin-top: 15px;
 }
 
 /*
