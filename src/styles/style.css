@@ -173,7 +173,7 @@ nav {
   position: absolute;
   left: 92px;
   top: 329px;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .navigation {
@@ -193,22 +193,16 @@ nav {
   color: #fff;
   font-weight: 400;
   width: 350px;
-  /* padding-left: 1px; */
-  /* padding-right: 1px; */
 }
 
 .navigation-item {
   width: 350px;
-  /* padding: 24px; */
-  /* padding-top: 24px; */
-  /* padding-bottom: 24px; */
   padding-left: 23px;
   padding-right: 24px;
   background-color: #f5f4f0;
   text-decoration: none;
   color: #42413c;
   cursor: pointer;
-  /* min-height: 320px; */
 }
 
 .navigation-count {
@@ -226,8 +220,7 @@ nav {
   font-weight: 400;
   font-size: 34px;
   color: #fe8a02;
-  line-height: 1.2;
-  
+  line-height: 1.2;  
 }
 
 .navigation-item:hover {
