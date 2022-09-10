@@ -65,8 +65,8 @@ nav {
   top: 0;
   background: url("./../images/background.png");
   background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
+  background-size: cover;
   height: 100%;
   opacity: 0.1;
   content: "";
@@ -140,8 +140,8 @@ nav {
   padding-top: 12px;
   color: #fff;
   font-weight: bold;
-  text-transform: uppercase;
   text-align: center;
+  text-transform: uppercase;
   text-decoration: none;
   background-color: var(--main-orange);
 }
@@ -217,10 +217,10 @@ nav {
 
 .navigation-item-header {
   font-weight: 400;
-  font-family: Neucha, sans-serif;
   color: var(--main-orange);
-  font-style: normal;
+  font-family: Neucha, sans-serif;
   font-size: 34px;
+  font-style: normal;
   line-height: 1.2;
 }
 
@@ -258,8 +258,8 @@ nav {
 
 .content-header-pretitel {
   font-family: Neucha, sans-serif;
-  font-style: normal;
   font-weight: 400;
+  font-style: normal;
   font-size: 24px;
   line-height: 1.2;
 }
@@ -269,13 +269,13 @@ nav {
 }
 
 .content-dark .content-header-pretitel {
-  color: #D7CCC0;
+  color: #d7ccc0;
 }
 
 .content-header-titel {
   font-family: Neucha, sans-serif;
-  font-style: normal;
   font-weight: 400;
+  font-style: normal;
   font-size: 60px;
   line-height: 1.2;
 }
@@ -286,8 +286,8 @@ nav {
 
 .content-header-description {
   font-family: Neucha, sans-serif;
-  font-style: normal;
   font-weight: 400;
+  font-style: normal;
   font-size: 34px;
   line-height: 1.2;
 }
@@ -297,8 +297,8 @@ nav {
 }
 
 .content-header-image {
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
   vertical-align: middle;
+  filter: drop-shadow(0px 16px 32px #00000026);
 }
 
 .content-main-header {
@@ -313,13 +313,13 @@ nav {
 }
 
 .content-light .content-main-header {
-  background: var(--brown);
   color: var(--wite);
+  background: var(--brown);
 }
 
 .content-dark .content-main-header {
-  background: var(--wite);
   color: var(--brown);
+  background: var(--wite);
 }
 
 .content-main {
@@ -333,40 +333,38 @@ nav {
 .email-wrapper {
   display: flex;
   justify-content: space-between;
-  background-color: var(--main-dark);
-  color: var(--wite);
   padding: 55px;
+  color: var(--wite);
+  background-color: var(--main-dark);
 }
 
 .email-description {
   font-family: Neucha, sans-serif;
-  font-style: normal;
   font-weight: 400;
+  font-style: normal;
   font-size: 34px;
   line-height: 1.2;
 }
 
 .email-form label {
   font-family: OpenSans, sans-serif;
-  font-style: normal;
   font-weight: 400;
+  font-style: normal;
   font-size: 18px;
-  line-height: 1.6;
   color: var(--wite);
+  line-height: 1.6;
 }
 
 .email-form input {
   position: relative;
   height: 50px;
   width: 485px;
-
   font-family: OpenSans, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13.1px;
   line-height: 1.6;
   padding: 15px;
-
   color: rgb(117, 117, 117, 20%);
   border: none;
 }
@@ -408,13 +406,13 @@ button:hover {
 
 .coryping {
   margin-top: 60px;
-  text-align: center;
   font-size: 14px;
+  text-align: center;  
 }
 
 .about-article,
 .link {
   margin-top: 16px;
-  text-align: center;
   font-size: 14px;
+  text-align: center;  
 }
