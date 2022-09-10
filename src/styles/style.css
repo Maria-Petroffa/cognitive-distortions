@@ -171,8 +171,8 @@ nav {
 
 .description-video-content {
   position: absolute;
-  left: 95px;
-  top: 330px;
+  left: 93px;
+  top: 329px;
   filter: drop-shadow(0 16px 32px rgba(var(--black) / 15%));
 }
 
