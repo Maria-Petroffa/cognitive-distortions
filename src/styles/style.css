@@ -64,31 +64,24 @@ nav {
   background: url("./../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-
-  content: "";
-
   opacity: 0.1;
-
   position: absolute;
+  top: 0;
   width: 100%;
   height: 100%;
-
-  top: 0;
+  content: "";
 }
 
 .container {
   position: relative;
-
   width: 1100px;
   opacity: 1;
 }
 
 .header {
   position: relative;
-
   margin-top: 0;
   padding-bottom: 100px;
-
   background-color: var(--light-white);
 }
 
@@ -98,7 +91,7 @@ nav {
 }
 
 .header-color-orange {
-  color: #fe8a02;
+  color: var(--main-orange);
 }
 
 .header-image {
@@ -140,18 +133,13 @@ nav {
 
 .header-button {
   display: block;
-
   width: 148px;
   height: 50px;
-
   margin-top: 38px;
   margin-left: 10px;
   padding-top: 12px;
-
   color: #fff;
-
-  background-color: #fe8a02;
-
+  background-color: var(--main-orange);
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
@@ -172,7 +160,6 @@ nav {
   font-weight: 400;
   font-size: 60px;
   padding: 0;
-
   margin-top: 100px;
 }
 
@@ -180,7 +167,6 @@ nav {
   margin-top: 30px;
   text-align: center;
   line-height: 1.6;
-
   color: #212529;
 }
 
@@ -192,7 +178,7 @@ nav {
 }
 
 .navigation {
-  background-color: #42413c;
+  background-color: var(--main-dark);
 }
 
 .navigation-wrap {
@@ -205,11 +191,8 @@ nav {
 
 .navigation-header {
   font-size: 52px;
-
   color: #fff;
-
   font-weight: 400;
-
   width: 350px;
 }
 
@@ -217,11 +200,9 @@ nav {
   width: 350px;
   padding-left: 23px;
   padding-right: 24px;
-  background-color: #f5f4f0;
+  background-color: var(--light-white);
   text-decoration: none;
-
-  color: #42413c;
-
+  color: var(--main-dark);
   cursor: pointer;
 }
 
@@ -239,21 +220,17 @@ nav {
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
-
-  color: #fe8a02;
-
+  color: var(--main-orange);
   line-height: 1.2;
 }
 
 .navigation-item:hover {
   background-color: #ea7600;
-
   color: #fff;
 }
 
 .navigation-item:hover .navigation-item-header {
   background-color: #ea7600;
-
   color: #fff;
 }
 
@@ -267,7 +244,7 @@ nav {
 
 .content-dark {
   background-color: var(--brown);
-  color: #FFFFFF;
+  color: var(--wite);
 }
 
 .content-header {
@@ -292,7 +269,7 @@ nav {
 }
 
 .content-light .content-header-preTitel {
-  color: #908D8B;
+  color: var(--translucent-dark);
 }
 
 .content-dark .content-header-preTitel {
@@ -308,7 +285,7 @@ nav {
 }
 
 .content-light .content-header-titel {
-  color: #2A2626;
+  color: var(--dark);
 }
 
 .content-header-description {
@@ -320,7 +297,7 @@ nav {
 }
 
 .content-light .content-header-description {
-  color: #2A2626;
+  color: var(--dark);
 }
 
 .content-header-image {
@@ -340,24 +317,28 @@ nav {
 }
 
 .content-light .content-main-header {
-  background: #B09A81;
-  color: #FFFFFF;
+  background: var(--brown);
+  color: var(--wite);
 }
 
 .content-dark .content-main-header {
-  background: #FFFFFF;
-  color: #B09A81;
+  background: var(--wite);
+  color: var(--brown);
 }
 
 .content-main {
   margin-top: 20px;
 }
 
+.hyperbolic-depreciation{
+  height: 930px;
+}
+
 .email-wrapper {
   display: flex;
   justify-content: space-between;
-  background-color: #42413C;
-  color: #FFFFFF;
+  background-color: var(--main-dark);
+  color: var(--wite);
   padding: 55px;
 }
 
@@ -375,7 +356,7 @@ nav {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.6;
-  color: #FFFFFF;
+  color: var(--wite);
 }
 
 .email-form input {
@@ -395,7 +376,7 @@ nav {
 }
 
 .email-form a {
-  color: #FFFFFF;
+  color: var(--wite);
 }
 
 .email-form legend {
@@ -416,7 +397,7 @@ nav {
   height: 50px;
   top: 0;
   right: 0;
-  background-color: #fe8a02;
+  background-color: var(--main-orange);
   background-image: url("./../images/send.svg");
   background-repeat: no-repeat;
   background-position: center;
