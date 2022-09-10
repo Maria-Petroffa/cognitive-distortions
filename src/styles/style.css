@@ -173,13 +173,14 @@ nav {
   position: relative;
   width: 100%;
   height: 506px;
-  filter: drop-shadow(0 16px 32px rgba(var(--black) / 15%));
+  
 }
 
 .description-video-content {
   position: absolute;
   left: 95px;
   top: 30px;
+  filter: drop-shadow(0 16px 32px rgba(var(--black) / 15%));
 }
 
 .navigation {
@@ -196,7 +197,7 @@ nav {
 
 .navigation-header {
   font-size: 52px;
-  color: #ffffff;
+  color: #fff;
   font-weight: 400;
   width: 350px;
 }
@@ -213,13 +214,13 @@ nav {
 .navigation-count {
   margin-bottom: 40px;
   font-size: 64px;
-  font-family: "Neucha";
+  font-family: Neucha, sans-serif;
   line-height: 1;
   text-decoration: none;
 }
 
 .navigation-item-header {
-  font-family: "Neucha";
+  font-family: Neucha, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
@@ -229,12 +230,12 @@ nav {
 
 .navigation-item:hover {
   background-color: #ea7600;
-  color: #ffffff;
+  color: #fff;
 }
 
 .navigation-item:hover .navigation-item-header {
   background-color: #ea7600;
-  color: #ffffff;
+  color: #fff;
 }
 
 .navigation-item-description {
