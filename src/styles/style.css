@@ -219,6 +219,7 @@ nav {
   width: 350px;
   padding-right: 24px;
   padding-left: 23px;
+  padding-bottom: 24px;
 
   color: var(--main-dark);
   text-decoration: none;
