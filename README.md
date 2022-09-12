@@ -1,2 +1,1 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/Maria-Petroffa/layout-designer-project-58/workflows/hexlet-check/badge.svg)](https://github.com/Maria-Petroffa/layout-designer-project-58/actions)
+Лендинг, описывающий распространённые когнитивные искажения в программировании. Это самые распространённые проблемы, с которыми сталкиваются многие разработчики в самые различные периоды своей карьеры. Как же с ними бороться и какие они бывают вы узнаете посетив страницу.
